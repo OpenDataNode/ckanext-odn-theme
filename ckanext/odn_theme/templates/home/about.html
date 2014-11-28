@@ -6,21 +6,14 @@
   <li class="active">{% link_for _('About'), controller='home', action='about' %}</li>
 {% endblock %}
 
-{%- block custom_styles %}
-   <link rel="stylesheet"  href="{{h.url_for_static('/css/odn_theme.css')}}?{{h.ckan_asset_timestamp()}}" />
-         
-{% endblock %}
-
 {% block primary %}
   <article class="module">
     <div class="module-content">
-  
- 
       {% block about %}
         {% if g.site_about %}
           {{ h.render_markdown(g.site_about) }}
         {% else %}
-          <h1 class="page-heading">{{ _('About Open Data Node') }}</h1>
+          <h1 class="page-heading">{{ _('About') }}</h1>
           {% snippet 'home/snippets/about_text.html' %}
         {% endif %}
       {% endblock %}

@@ -12,7 +12,7 @@ class OdnThemePlugin(plugins.SingletonPlugin):
     def update_config(self, config):
 
         config['ckan.site_logo'] = '/images/odnlogo.png'     
-        config['ckan.site_custom_css'] = '/images/comsode_theme.css'     
+
         
         toolkit.add_template_directory(config, 'templates')
         toolkit.add_public_directory(config, 'public')
