@@ -76,16 +76,11 @@
     {% endblock %}
 
     {%- block custom_styles %}
-      <link rel="stylesheet" href="{{h.url_for_static('/css/comsode_theme.css')}}?{{h.ckan_asset_timestamp()}}" />
-      {%- if g.site_custom_css -%}
-      
-      
-      <style>
-        {{ g.site_custom_css | safe }}
-      </style>
-      {%- endif %}
+   <link rel="stylesheet"  href="{{h.url_for_static('/css/odn_theme.css')}}?{{h.ckan_asset_timestamp()}}" />
+         
     {% endblock %}
   </head>
+  
 
   {# Allows custom attributes to be added to the <body> tag #}
   <body{% block bodytag %} data-site-root="{{ h.url('/', locale='default', qualified=true) }}" data-locale-root="{{ h.url('/', qualified=true) }}" {% endblock %}>

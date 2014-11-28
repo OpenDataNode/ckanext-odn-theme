@@ -6,9 +6,16 @@
   <li class="active">{% link_for _('About'), controller='home', action='about' %}</li>
 {% endblock %}
 
+{%- block custom_styles %}
+   <link rel="stylesheet"  href="{{h.url_for_static('/css/odn_theme.css')}}?{{h.ckan_asset_timestamp()}}" />
+         
+{% endblock %}
+
 {% block primary %}
   <article class="module">
     <div class="module-content">
+  
+ 
       {% block about %}
         {% if g.site_about %}
           {{ h.render_markdown(g.site_about) }}
