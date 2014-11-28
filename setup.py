@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.0'
+version = '0.1.0-SNAPSHOT'
 
 setup(
-    name='ckanext-odn_theme',
+    name='ckanext-odn-theme',
     version=version,
-    description="",
+    description="Open Data Node CKAN Theme",
     long_description='''
     ''',
     classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -23,7 +23,7 @@ setup(
         # -*- Extra requirements: -*-
     ],
     entry_points='''
-        [ckan.plugins]
- 		ckanext-odn_theme=ckanext.odn_theme.plugin:OdnThemePlugin
+    [ckan.plugins]
+        odn_theme=ckanext.odn_theme.plugin:OdnThemePlugin
     ''',
 )
