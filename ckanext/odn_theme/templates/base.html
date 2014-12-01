@@ -51,7 +51,7 @@
     such as rss feeds and favicons in the same way as the meta block.
     #}
     {% block links -%}
-      <link rel="shortcut icon" href="{%set f=0%}{%set u=request.path%}{%if u|length>0%}{%for x in u%}{%if f<2%}{%if x=="/"%}{%set f=f+1%}{%endif%}{{x}}{%endif%}{%endfor%}{%endif%}favicon.ico" />
+      <link rel="shortcut icon" href="{h.url_for_static('/base/images/odnicon.ico')}" />
     {% endblock -%}
 
     {#
