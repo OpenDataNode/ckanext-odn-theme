@@ -11,7 +11,7 @@ class OdnThemePlugin(plugins.SingletonPlugin):
 
     def update_config(self, config):
 
-        config['ckan.site_logo'] = '/images/odnlogo.png'     
+        #config['ckan.site_logo'] = '/base/images/odnlogo.png'     
 
         
         toolkit.add_template_directory(config, 'templates')
