@@ -4,4 +4,8 @@ ckanext-odn-theme
 ODN theme for CKAN
 
 enable plugin:
-add ckanext-odn_theme to ckan.plugins in your production.ini 
+add odn_theme to ckan.plugins in your production.ini 
+
+set production.ini:
+    ckan.site_logo = /base/images/odnlogo.png
+    ckan.favicon = /base/images/odnicon.ico
