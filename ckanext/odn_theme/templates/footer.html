@@ -5,26 +5,11 @@
         {% block footer_nav %}
           <ul class="unstyled">
             <li><a href="http://www.comsode.eu" target="_blank"><img src="{%set f=0%}{%set u=request.path%}{%if u|length>0%}{%for x in u%}{%if f<2%}{%if x=="/"%}{%set f=f+1%}{%endif%}{{x}}{%endif%}{%endfor%}{%endif%}base/images/comsodelogo.png" alt="Comsode" border="0" style="margin-top:6px;"/></a></li>
-            <!--
-            {% block footer_links %}
-              <li><a href="{{ h.url_for(controller='home', action='about') }}">{{ _('About {0}').format(g.site_title) }}</a></li>
-            {% endblock %}
-            -->
           </ul>
           <ul class="unstyled" style="margin-left:75px;margin-top:4px;">  
             <li style="line-height:22px;"><strong>FP7 Project COMSODE</strong><br>
                 <a href="http://www.comsode.eu" target="_blank">www.comsode.eu</a> - <a href="https://twitter.com/FP7COMSODE" target="_blank">@FP7COMSODE</a> </li>         
           </ul>
-          <!--
-          <ul class="unstyled">
-            {% block footer_links_ckan %}
-              {% set api_url = 'http://docs.ckan.org/en/{0}/api.html'.format(g.ckan_doc_version) %}
-              <li><a href="{{ api_url }}">{{ _('CKAN API') }}</a></li> 
-              <li><a href="http://www.okfn.org/">{{ _('Open Knowledge Foundation') }}</a></li>
-              <li><a href="http://www.opendefinition.org/okd/"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png"></a></li>
-            {% endblock %}
-          </ul>
-          -->
         {% endblock %}
       </nav>
       <div class="attribution">
