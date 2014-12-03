@@ -17,6 +17,9 @@ setup(
     license='',
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     namespace_packages=['ckanext', 'ckanext.odn_theme'],
+    package_data={'': ['public/base/images/*.css','public/base/images/*.html','public/base/images/*.png','public/base/images/*.ico',
+    'public/base/css/*.css', 'templates/*.html','templates/home/*.html', 'templates/home/snippets/*.html'
+    ]},
     include_package_data=True,
     zip_safe=False,
     install_requires=[
