@@ -74,8 +74,8 @@ hgroup.header-image { margin-left: 5px; }
 .site-footer, .site-footer label, .site-footer small { color: #2c3e50; }
 .attribution .ckan-footer-logo { margin-top: 7px; }
 .footer-links ul { width: auto; margin-left:0; }
-.footer-links { width: 522px; }
-.attribution { width: auto; }
+.footer-links { width: 500px; }
+.attribution { width: auto; margin-left: 0; }
 .footer-links a { color:#2c3e50; }
 .site-footer form { margin: 0; }
 .site-footer .container { padding-top: 7px; }
