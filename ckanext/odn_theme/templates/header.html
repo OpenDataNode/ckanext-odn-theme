@@ -48,6 +48,7 @@
         {% else %}
           <nav class="account not-authed">
             <ul class="unstyled">
+              <li><a href="http://www.comsode.eu/index.php/consortium/">{{ _('Contact Us') }}</a></li>
               {% block header_account_notlogged %}
               <li>{% link_for _('Log in'), controller='user', action='login' %}</li>
               {% if h.check_access('user_create') %}
