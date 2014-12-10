@@ -3,15 +3,21 @@ ckanext-odn-theme
 
 ODN theme for CKAN
 
+Plugin for extending package extras view.
+
 Installation
 -------
 
-enable plugin:
-add odn_theme to ckan.plugins in your production.ini
+To enable plugin, change property in your production.ini:
+```
+ckan.plugins = odn_theme odn_package_extras
+```
 
 set in .ini:
 * ckan.site_title = COMSODE - Open Data Node 
 * ckan.site_logo = /base/images/odnlogo.png
+
+Restart of apache AS is required: ``` service apache2 restart ```
 
 Licenses
 -------
