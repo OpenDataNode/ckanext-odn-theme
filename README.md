@@ -17,6 +17,9 @@ set in .ini:
 * ckan.site_title = COMSODE - Open Data Node 
 * ckan.site_logo = /base/images/odnlogo.png
 
+If ckan url isn't simple one (http://my.ckan.url), but it's like http://my.ckan.url/internalcatalog, it's needed to set:
+* ckan.site_url = http://my.ckan.url/internalcatalog
+
 Restart of apache AS is required: ``` service apache2 restart ```
 
 Licenses
