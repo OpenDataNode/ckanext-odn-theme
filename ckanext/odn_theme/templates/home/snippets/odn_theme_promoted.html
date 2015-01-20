@@ -12,6 +12,6 @@
     {% endif %}
   </header>
   <section class="featured media-overlay">
-    <p><a href="./about/"><img src="{%set f=0%}{%set u=request.path%}{%if u|length>0%}{%for x in u%}{%if f<2%}{%if x=="/"%}{%set f=f+1%}{%endif%}{{x}}{%endif%}{%endfor%}{%endif%}base/images/odnschemesmall.jpg" alt="ODN scheme" width="410" height="167" border="0" /></a></p>
+    <p><a href="./about/"><img src="{{ h.url_for_static('/base/images/odnschemesmall.jpg') }}" alt="ODN scheme" width="410" height="167" border="0" /></a></p>
   </section>
 </div>
