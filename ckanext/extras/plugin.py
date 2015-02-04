@@ -4,16 +4,17 @@ Created on 10.12.2014
 @author: mvi
 '''
 
+from ckan.common import _
 import ckan.plugins as p
 import ckan.plugins.toolkit as tk
 
 labels = {
-    "creator":"Creator",
-    "dataset":"Dataset",
-    "modified":"Modified",
-    "source":"Source",
-    "void#exampleResource":"Example resource",
-    "void#sparqlEndpoint":"SPARQL resource"
+    "creator":_("Creator"),
+    "dataset":_("Dataset"),
+    "modified":_("Modified"),
+    "source":_("Source"),
+    "void#exampleResource":_("Example resource"),
+    "void#sparqlEndpoint":_("SPARQL resource")
 }
 
 def get_label(key):
