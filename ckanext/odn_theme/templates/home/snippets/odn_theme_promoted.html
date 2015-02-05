@@ -15,6 +15,10 @@
     {% endif %}
   </header>
   <section class="featured media-overlay">
-    <p><a href="./about/"><img src="{{ h.url_for_static('/base/images/odnschemesmall.jpg') }}" alt="ODN scheme" width="410" height="167" border="0" /></a></p>
+    <p>
+      <a href="./about/">
+        <img src="{{ h.localized_url_for_static('base/images/odnschemesmall.jpg') }}" onerror="this.src='{{ h.url_for_static('/base/images/odnschemesmall.jpg') }}'" alt="ODN scheme" width="410" height="167" border="0" />
+      </a>
+    </p>
   </section>
 </div>

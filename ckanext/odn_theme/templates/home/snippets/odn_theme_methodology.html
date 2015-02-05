@@ -9,7 +9,11 @@
 	  <a href="http://www.comsode.eu/index.php/2014/08/methodology-for-publishing-datasets-as-open-data/" target="_blank">{{ _('More information..') }}</a>
 	</p>
 
-<p><a href="http://www.comsode.eu/index.php/2014/08/methodology-for-publishing-datasets-as-open-data/" target="_blank"><img src="{{ h.url_for_static('base/images/methodology.jpg') }}" width="410" height="184" alt="Methodology" border="0"></a></p>
+    <p>
+      <a href="http://www.comsode.eu/index.php/2014/08/methodology-for-publishing-datasets-as-open-data/" target="_blank">
+        <img src="{{ h.localized_url_for_static('base/images/methodology.jpg') }}" onerror="this.src='{{ h.url_for_static('base/images/methodology.jpg') }}'" width="410" height="184" alt="Methodology" border="0">
+      </a>
+    </p>
 
   </header>
 </div>

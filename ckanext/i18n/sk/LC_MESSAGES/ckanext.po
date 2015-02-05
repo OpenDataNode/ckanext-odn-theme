@@ -1,0 +1,285 @@
+# Slovak translations for ckanext-odn-theme.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the ckanext-odn-theme
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-odn-theme 0.1.1-SNAPSHOT\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-02-05 12:59+0100\n"
+"PO-Revision-Date: 2015-02-05 12:59+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: sk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: ckanext/extras/plugin.py:15
+msgid "Creator"
+msgstr ""
+
+#: ckanext/extras/plugin.py:16
+msgid "Dataset"
+msgstr ""
+
+#: ckanext/extras/plugin.py:17
+msgid "Modified"
+msgstr ""
+
+#: ckanext/extras/plugin.py:18
+msgid "Source"
+msgstr ""
+
+#: ckanext/extras/plugin.py:19
+msgid "Example resource"
+msgstr ""
+
+#: ckanext/extras/plugin.py:20
+msgid "SPARQL resource"
+msgstr ""
+
+#: ckanext/odn_theme/templates/error_document_template.html:3
+#, python-format
+msgid "Error %(error_code)s"
+msgstr ""
+
+#: ckanext/odn_theme/templates/footer.html:10
+msgid "FP7 Project COMSODE"
+msgstr ""
+
+#: ckanext/odn_theme/templates/footer.html:18
+msgid ""
+"<strong>Powered by:</strong> <a class=\"hide-text ckan-footer-logo\" "
+"href=\"http://ckan.org\">CKAN</a>"
+msgstr ""
+
+#: ckanext/odn_theme/templates/footer.html:28
+msgid ""
+"Project Comsode has received funding from the Seventh Framework Programme"
+" of the European Union in Grant Agreement number 611358."
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:12
+msgid "Sysadmin settings"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:18
+msgid "View profile"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:25
+#, python-format
+msgid "Dashboard (%(num)d new item)"
+msgid_plural "Dashboard (%(num)d new items)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ckanext/odn_theme/templates/header.html:33
+msgid "Edit settings"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:40
+msgid "Log out"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:51
+msgid "Contact Us"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:53
+msgid "Log in"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:55
+msgid "Register"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:79
+msgid "Open Data Node"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:80
+msgid "ver. 0.9"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:99
+msgid "Datasets"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:100
+msgid "Organizations"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:101
+msgid "About ODN"
+msgstr ""
+
+#: ckanext/odn_theme/templates/header.html:104
+msgid "Project Comsode"
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/about.html:3
+#: ckanext/odn_theme/templates/home/about.html:6
+msgid "About"
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/about.html:16
+msgid "About Open Data Node"
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/snippets/about_text.html:1
+msgid ""
+" <p>ODN is publication platform for open data supporting whole process of"
+" publishing. Our motivation is to provide tool which can make this "
+"publication repeatable, automated and easy to use.</p> <p><strong>Current"
+" version 0.9</strong> is pilot with limited functionality, allowing user "
+"to browse, search and download published datasets and allowing registered"
+" user also to manage, transform (ETL) and publish datasets (using "
+"integrated tool <a href=\"http://www.comsode.eu/index.php/2014/04"
+"/unifiedviews-an-etl-framework-for-sustainable-rdf-data-"
+"processing/\">UnifiedViews</a>).</p> <h2>Documentation</h2> "
+"<p>Documentation is and will be available here: <a "
+"href=\"https://github.com/OpenDataNode/open-data-"
+"node\">https://github.com/OpenDataNode/open-data-node</a></p> <h2>Release"
+" Plan</h2> <ul> <li> 5.12.2014 - Ver. 0.9 pilot with limited "
+"functionality </li> <li> 31.1.2015 - Ver 1.0 - complete beta version for "
+"testing </li> <li> 31.3.2015 - Ver. 1.0.x - bug fix release - may be used"
+" for pilots and early adopters </li> <li> 31.4.2015 - Ver. 1.1 - version "
+"for pilot installations </li> <li> 29.5.2015 - Ver. 1.1.x - big fix "
+"release </li> <li> 30.6.2015 - Ver. 1.2 - final Comsode release for "
+"evaluation </li> <li> 31.7.2015 - Ver. 1.2.x - final bugfix </li> </ul> "
+"<h2>Licensing</h2> <p>ODN consists from several modules, each with its "
+"own license. But overall, ODN is <a "
+"href=\"https://en.wikipedia.org/wiki/FOSS\">free and open-source</a>. For"
+" more information please take a look at <a "
+"href=\"https://github.com/OpenDataNode/open-data-"
+"node#license\">https://github.com/OpenDataNode/open-data-"
+"node#license</a>.</p> <h2>So, what it does?</h2> "
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/snippets/about_text.html:37
+msgid ""
+" <p>Organizations, companies or even individuals wishing to publish Open "
+"Data from existing information systems usually face a lot of troubles "
+"stemming from where the data currently is:</p> <ul> <li> Data is usually "
+"in internal systems, isolated from the Internet, from the general public,"
+" isolated even from the rest of the organization itself and its staff. "
+"</li> <li> Data is maintained in complex, heterogeneous environments, "
+"using wide variety of formats and employing a lot of different "
+"technologies to access it and process it. </li> </ul> <p>This sometimes "
+"forces those wishing to publish Open Data either to abandon such plans or"
+" to make some compromises, such as publishing only manually, forgetting "
+"or not being able to produce timely updates, needed clean-up, etc.</p> "
+"<p>In order to publish Open Data from such systems properly, i.e. using "
+"Open formats, in machine readable form and in timely manner, <strong>Open"
+" Data Node does following:</strong></p> <ol> <li> <p><strong>it extracts "
+"(harvests) data from internal systems</strong> using any available "
+"interface and method to do that safely, effectively, with low costs,</p> "
+"</li> <li> <p><strong>it processes that data</strong>, performing format "
+"conversions, cleansing, anonymization, enrichment, linking, etc. (and as "
+"part of that also compiling some metadata about that data)</p> </li> <li>"
+" <p><strong>it stores the results</strong> (data and metadata too), "
+"serving effectively as cache, protecting internal systems from "
+"overloading in case of high demand for data from users,</p> </li> <li> "
+"<p><strong>it makes the results available to the general public and "
+"businesses</strong> supporting both common users (with usual office tools"
+" on PCs or other devices) and application developers (equipped with "
+"powerful software development tools and above average hardware), "
+"implementing also automated and efficient distribution of updated data "
+"increments and dataset replication (including metadata),</p> </li> <li> "
+"<p><strong>it allows all this to be automated, easy to use and easy to "
+"maintain.</strong></p> </li> </ol> <p>In other words and shortened: "
+"<strong>Open Data Node helps publishers</strong> of Open Data with the "
+"complexity of source data and <strong>continuously delivers easy to use "
+"and high quality Open Data to the users</strong>.</p> <h2>And, what it "
+"is?</h2> <p>To some degree, <strong>ODN already is</strong>. Its main "
+"component was released recently <a "
+"href=\"http://www.comsode.eu/index.php/2014/04/unifiedviews-an-etl-"
+"framework-for-sustainable-rdf-data-processing/\">see blog post about "
+"UnifiedViews</a>. More about ODN's components will be published in "
+"subsequent articles.</p> <p>As already mentioned, <strong>ODN is "
+"software</strong>. So it is not a service. But it can be used to create "
+"one.</p> <p>And not just a software, <strong>ODN is Open Source "
+"software</strong>, employing mainly combination of <a "
+"href=\"http://www.gnu.org/licenses/gpl-3.0.html\">GPLv3</a> and <a "
+"href=\"http://www.gnu.org/licenses/lgpl-3.0.html\">LGPLv3</a>. Thus you "
+"can use it yourself, without paying license fees. You can use it as it is"
+" or you can customize it or integrate it with something else. If you are "
+"not skilled enough, you can acquire customer support for this. You can "
+"buy this support either from COMSODE consortium members (e.g. from <a "
+"href=\"http://www.eea.sk\">EEA</a> Company) or you can buy that support "
+"from somebody else, even building local expertise in your own "
+"country.</p> <p>Given that, <strong>ODN can be also seen as integration "
+"component</strong>, helping to reliably and safely bridge information "
+"systems of public bodies with IT infrastructure of citizens and "
+"businesses.</p> <h2>Is it all-in-one package, silver bullet?</h2> "
+"<p>After reaching this point, you may think ODN is a wonder tool, doing "
+"everything, The Only Right Solution In The World(TM), sort of silver "
+"bullet. No, it is not.</p> <p>For more information visit web of <a "
+"href=\"http://www.comsode.eu/index.php/2014/06/open-data-node-what-it-is-"
+"what-it-does-what-is-next/\">Comsode project</a></p> </div> </article> "
+"</div> </div> </div> "
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/snippets/odn_theme_methodology.html:3
+msgid "Methodology for publishing Open Data"
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/snippets/odn_theme_methodology.html:5
+msgid ""
+" Open Data methodology is the next component od Open data suite provided "
+"by <a href=\"http://www.comsode.eu\" target=\"_blank\" "
+"class=\"rlink\">Comsode project</a>. It is intended for data owners and "
+"publishers (mainly public bodies) as the generic methodology for the "
+"design of their internal processes. "
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/snippets/odn_theme_methodology.html:9
+#: ckanext/odn_theme/templates/home/snippets/odn_theme_promoted.html:13
+msgid "More information.."
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/snippets/odn_theme_promoted.html:8
+msgid "Comsode: Open Data Node"
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/snippets/odn_theme_promoted.html:10
+msgid ""
+" ODN is platform fur publishing, retrieving and interchange of open data "
+"supporting whole process of publication. "
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/snippets/search.html:2
+msgid "eg. Gold Prices"
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/snippets/search.html:6
+msgid "Search Your Data"
+msgstr ""
+
+#: ckanext/odn_theme/templates/home/snippets/search.html:11
+msgid "Search"
+msgstr ""
+
+#: ckanext/odn_theme/templates/snippets/package_item.html:38
+msgid "Private"
+msgstr ""
+
+#: ckanext/odn_theme/templates/snippets/package_item.html:43
+msgid "Draft"
+msgstr ""
+
+#: ckanext/odn_theme/templates/snippets/package_item.html:45
+msgid "Deleted"
+msgstr ""
+
+#: ckanext/odn_theme/templates/snippets/package_item.html:50
+msgid "Popular"
+msgstr ""
+

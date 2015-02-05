@@ -30,7 +30,11 @@
 <h2>Licensing</h2>
 <p>ODN consists from several modules, each with its own license. But overall, ODN is <a href="https://en.wikipedia.org/wiki/FOSS">free and open-source</a>. For more information please take a look at <a href="https://github.com/OpenDataNode/open-data-node#license">https://github.com/OpenDataNode/open-data-node#license</a>.</p>
 <h2>So, what it does?</h2>
-<p><img src="{{ url_static }}base/images/odnscheme.jpg" alt="ODN Scheme"/></p>
+{% endtrans %}
+<p>
+  <img src="{{ h.localized_url_for_static('base/images/odnscheme.jpg') }}" onerror="this.src='{{ h.url_for_static('base/images/odnscheme.jpg') }}'" alt="ODN Scheme"/>
+ </p>
+{% trans %}
 <p>Organizations, companies or even individuals wishing to publish Open Data from existing information systems usually face a lot of troubles stemming from where the data currently is:</p>
 <ul>
    <li>
