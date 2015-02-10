@@ -7,11 +7,18 @@
     {% else %}
       <h1 class="page-heading">{{ _("Comsode: Open Data Node") }}</h1>
       <p>
-        ODN is platform fur publishing, retrieving and interchange of open data supporting whole process of publication. <a href="./about/">More information..</a>
+      {% trans %}
+        ODN is platform fur publishing, retrieving and interchange of open data supporting whole process of publication.
+      {% endtrans %}
+      <a href="./about/">{{ _('More information..') }}</a>
       </p>
     {% endif %}
   </header>
   <section class="featured media-overlay">
-    <p><a href="./about/"><img src="{%set f=0%}{%set u=request.path%}{%if u|length>0%}{%for x in u%}{%if f<2%}{%if x=="/"%}{%set f=f+1%}{%endif%}{{x}}{%endif%}{%endfor%}{%endif%}base/images/odnschemesmall.jpg" alt="ODN scheme" width="410" height="167" border="0" /></a></p>
+    <p>
+      <a href="./about/">
+        <img src="{{ h.localized_url_for_static('base/images/odnschemesmall.jpg') }}" onerror="this.src='{{ h.url_for_static('/base/images/odnschemesmall.jpg') }}'" alt="ODN scheme" width="410" height="167" border="0" />
+      </a>
+    </p>
   </section>
 </div>

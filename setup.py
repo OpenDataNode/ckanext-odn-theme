@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1.0-SNAPSHOT'
+version = '0.1.1-SNAPSHOT'
 
 setup(
     name='ckanext-odn-theme',
@@ -18,6 +18,11 @@ setup(
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     namespace_packages=['ckanext', 'ckanext.odn_theme', 'ckanext.extras'],
     package_data={'': [
+            'i18n/*/LC_MESSAGES/*.po',
+            'i18n/*/base/images/*.jpg',
+            'i18n/*/base/images/*.png',
+            'i18n/*/base/images/*.ico',
+            'i18n/*/base/images/*.gif',
             'public/base/images/*.css',
             'public/base/images/*.html',
             'public/base/images/*.png',
@@ -36,6 +41,12 @@ setup(
     install_requires=[
         # -*- Extra requirements: -*-
     ],
+    message_extractors={
+        'ckanext': [
+            ('**.py', 'python', None),
+            ('**.html', 'ckan', None),
+        ]
+    }, # for babel.extract_messages, says which are source files for translating
     entry_points='''
     [ckan.plugins]
     odn_theme=ckanext.odn_theme.plugin:OdnThemePlugin

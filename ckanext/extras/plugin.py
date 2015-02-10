@@ -7,16 +7,18 @@ Created on 10.12.2014
 import ckan.plugins as p
 import ckan.plugins.toolkit as tk
 
-labels = {
-    "creator":"Creator",
-    "dataset":"Dataset",
-    "modified":"Modified",
-    "source":"Source",
-    "void#exampleResource":"Example resource",
-    "void#sparqlEndpoint":"SPARQL resource"
-}
+from ckan.common import _
 
 def get_label(key):
+    # labels can't be module variable or the i18n won't work 
+    labels = {
+        "creator":_("Creator"),
+        "dataset":_("Dataset"),
+        "modified":_("Modified"),
+        "source":_("Source"),
+        "void#exampleResource":_("Example resource"),
+        "void#sparqlEndpoint":_("SPARQL resource")
+    }
     if key in labels.keys():
         return labels[key]
     else:

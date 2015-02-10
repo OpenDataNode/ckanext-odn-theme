@@ -4,10 +4,10 @@
       <nav class="footer-links">
         {% block footer_nav %}
           <ul class="unstyled">
-            <li><a href="http://www.comsode.eu" target="_blank"><img src="{%set f=0%}{%set u=request.path%}{%if u|length>0%}{%for x in u%}{%if f<2%}{%if x=="/"%}{%set f=f+1%}{%endif%}{{x}}{%endif%}{%endfor%}{%endif%}base/images/comsodelogo.png" alt="Comsode" border="0" style="margin-top:6px;"/></a></li>
+            <li><a href="http://www.comsode.eu" target="_blank"><img src="{{h.url_for_static('/base/images/comsodelogo.png')}}" alt="Comsode" border="0" style="margin-top:6px;"/></a></li>
           </ul>
           <ul class="unstyled" style="margin-left:75px;margin-top:4px;">  
-            <li style="line-height:22px;"><strong>FP7 Project COMSODE</strong><br>
+            <li style="line-height:22px;"><strong>{{ _('FP7 Project COMSODE') }}</strong><br>
                 <a href="http://www.comsode.eu" target="_blank">www.comsode.eu</a> - <a href="https://twitter.com/FP7COMSODE" target="_blank">@FP7COMSODE</a> </li>         
           </ul>
         {% endblock %}
@@ -25,7 +25,7 @@
         </div>
       </div>
     {% endblock %}
-    <div style="clear:both;padding-top:15px;">Project Comsode has received funding from the Seventh Framework Programme of the European Union in Grant Agreement number 611358.</div>
+    <div style="clear:both;padding-top:15px;">{{ _('Project Comsode has received funding from the Seventh Framework Programme of the European Union in Grant Agreement number 611358.') }}</div>
 
  </div>
 
