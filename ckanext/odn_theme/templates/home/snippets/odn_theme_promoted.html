@@ -10,13 +10,13 @@
       {% trans %}
         ODN is platform fur publishing, retrieving and interchange of open data supporting whole process of publication.
       {% endtrans %}
-      <a href="./about/">{{ _('More information..') }}</a>
+      <a href="{% url_for controller='home', action='about' %}">{{ _('More information..') }}</a>
       </p>
     {% endif %}
   </header>
   <section class="featured media-overlay">
     <p>
-      <a href="./about/">
+      <a href="{% url_for controller='home', action='about' %}">
         <img src="{{ h.localized_url_for_static('base/images/odnschemesmall.jpg') }}" onerror="this.src='{{ h.url_for_static('/base/images/odnschemesmall.jpg') }}'" alt="ODN scheme" width="410" height="167" border="0" />
       </a>
     </p>
