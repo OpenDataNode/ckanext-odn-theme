@@ -32,9 +32,10 @@ body, .account-masthead, .masthead { background: none; }
 .masthead { padding-bottom: 12px; padding-top: 0; border-bottom: 1px solid #efeeec; }
 .account-masthead, .masthead, .site-footer { background: #efeeec; }
 
-h1 { font-size: 20px; }
-h1 { color: #2c3e50; }
+h1 { font-size: 20px; color: #2c3e50; }
 .context-info h1.heading { margin-top: 12px; }
+
+h1, div.notes p, div.dataset-content div { word-wrap: break-word; }
 
 .homepage .module-search .module-content .heading { color: #2c3e50; }
 .search-form .search-input.search-giant input { font-size: 16px; padding: 10px; }
