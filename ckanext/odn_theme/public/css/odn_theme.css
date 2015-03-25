@@ -74,7 +74,7 @@ hgroup.header-image { margin-left: 5px; }
 .site-footer { min-height: 110px; margin-top:20px;}
 .site-footer, .site-footer label, .site-footer small { color: #2c3e50; }
 .attribution .ckan-footer-logo { margin-top: 7px; }
-.footer-links ul { width: auto; margin-left:0; }
+.footer-links ul { width: auto; margin-left:0; float: left; }
 .footer-links { width: 500px; }
 .attribution { width: auto; margin-left: 0; }
 .footer-links a { color:#2c3e50; }
@@ -97,3 +97,7 @@ ol.stages { margin: 10px 0 20px; }
 .page_primary_action { margin-top: 15px; margin-bottom: 15px; }
 .btn-primary { background: #2c3e50; }
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled] { background: #909090; }
+
+[role=main] {
+  min-height: 160px;
+}
