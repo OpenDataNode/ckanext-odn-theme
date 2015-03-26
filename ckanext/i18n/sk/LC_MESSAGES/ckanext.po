@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-odn-theme 0.1.1-SNAPSHOT\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-03-13 10:26+0100\n"
+"POT-Creation-Date: 2015-03-26 04:32-0700\n"
 "PO-Revision-Date: 2015-02-23 10:46+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: sk <LL@li.org>\n"
@@ -97,25 +97,34 @@ msgstr "Register"
 msgid "Open Data Node"
 msgstr "Open Data Node"
 
-#: ckanext/odn_theme/templates/header.html:80
-msgid "ver. 0.11"
-msgstr "verzia 0.11"
-
-#: ckanext/odn_theme/templates/header.html:99
+#: ckanext/odn_theme/templates/header.html:101
 msgid "Datasets"
 msgstr "Dátové sady"
 
-#: ckanext/odn_theme/templates/header.html:100
+#: ckanext/odn_theme/templates/header.html:102
 msgid "Organizations"
 msgstr "Organizácie"
 
-#: ckanext/odn_theme/templates/header.html:101
+#: ckanext/odn_theme/templates/header.html:103
 msgid "About ODN"
 msgstr "O ODN"
 
-#: ckanext/odn_theme/templates/header.html:104
+#: ckanext/odn_theme/templates/header.html:106
 msgid "Data.gov.sk"
 msgstr "Data.gov.sk"
+
+#: ckanext/odn_theme/templates/admin/config.html:6
+msgid "Version"
+msgstr ""
+
+#: ckanext/odn_theme/templates/admin/config.html:11
+msgid ""
+" <p><strong>Version:</strong> This is the version displayed in the header"
+" and About page (see current version). It is set in CKAN configuration "
+"file in the property ckan.odn_version</p> "
+msgstr " <p><strong>Verzia:</strong> Toto je verzia zobrazená v hlavičke stránky"
+" a About stránke. Verzia je nastavená v CKAN konfiguračnom súbore v premennej "
+"ckan.odn_version</p> "
 
 #: ckanext/odn_theme/templates/home/about.html:3
 #: ckanext/odn_theme/templates/home/about.html:6
@@ -131,14 +140,14 @@ msgid ""
 " <p>ODN is publication platform for open data supporting whole process of"
 " publishing. Our motivation is to provide tool which can make this "
 "publication repeatable, automated and easy to use.</p> <p><strong>Current"
-" version 0.11</strong> is pilot with limited functionality, allowing user"
-" to browse, search and download published datasets and allowing "
-"registered user also to manage, transform (ETL) and publish datasets "
-"(using integrated tool <a href=\"http://www.comsode.eu/index.php/2014/04"
-"/unifiedviews-an-etl-framework-for-sustainable-rdf-data-"
-"processing/\">UnifiedViews</a>).</p> <h2>Documentation</h2> "
-"<p>Documentation is and will be available here: <a "
-"href=\"https://github.com/OpenDataNode/open-data-"
+" version %(odn_version)s</strong> is pilot with limited functionality, "
+"allowing user to browse, search and download published datasets and "
+"allowing registered user also to manage, transform (ETL) and publish "
+"datasets (using integrated tool <a "
+"href=\"http://www.comsode.eu/index.php/2014/04/unifiedviews-an-etl-"
+"framework-for-sustainable-rdf-data-processing/\">UnifiedViews</a>).</p> "
+"<h2>Documentation</h2> <p>Documentation is and will be available here: <a"
+" href=\"https://github.com/OpenDataNode/open-data-"
 "node\">https://github.com/OpenDataNode/open-data-node</a></p> <h2>Release"
 " Plan</h2> <ul> <li> 5.12.2014 - Ver. 0.9 pilot with limited "
 "functionality </li> <li> 10.2.2015 - Ver. 0.10 beta version for testing "
