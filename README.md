@@ -11,6 +11,9 @@ Installation
 To enable plugin, change property in your production.ini:
 ```
 ckan.plugins = odn_theme odn_package_extras
+
+# version displayed in header and About page (current version)
+ckan.odn_version = 0.11
 ```
 
 set in .ini:

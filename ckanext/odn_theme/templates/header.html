@@ -75,10 +75,12 @@
       {% block header_logo %}
         {% if g.site_logo %}
           <a style="float:left;display:block;" class="logo" href="{{ h.url('home') }}"><img src="{{ h.url_for_static(g.site_logo) }}" alt="{{ g.site_title }} Logo" title="{{ g.site_title }} Logo" /></a>
-<div style="margin-left:16px;float:left;color:#2c3e50;font-weight:bold;">
-  <div style="margin-top:10px;font-size:28px;">{{ _("Open Data Node") }}</div>
-  <div style="margin-top:9px;font-size:14px;">{{ _("ver. 0.11") }}</span></div>
-  </div>
+          <div style="margin-left:16px;float:left;color:#2c3e50;font-weight:bold;">
+            <div style="margin-top:10px;font-size:28px;">{{ _("Open Data Node") }}</div>
+            {% if g.odn_version %}
+              <div style="margin-top:9px;font-size:14px;">ver. {{ g.odn_version }}</span></div>
+            {% endif %}
+          </div>
         {% else %}
           <h1>
             <a href="{{ h.url('home') }}">{{ g.site_title }}</a>
