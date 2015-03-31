@@ -31,6 +31,7 @@ setup(
             'public/base/images/*.gif',
             'public/css/*.css',
             'templates/*.html',
+            'templates/admin/*.html',
             'templates/home/*.html',
             'templates/home/snippets/*.html',
             'templates/snippets/*.html',

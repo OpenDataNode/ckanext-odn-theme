@@ -1,0 +1,17 @@
+{% ckan_extends %}
+
+{% import 'macros/form.html' as form %}
+
+{% block admin_form %}
+  {{ form.input('odn_version', label=_('Version'), value=g.odn_version, placeholder='ckan.odn_version in CKAN config', classes=['control-medium'], attrs={'disabled':'disabled'}) }}
+  {{ super() }}
+{% endblock %}
+
+{% block admin_form_help %}
+  {% trans %}
+  <p><strong>Version:</strong> This is the version displayed in the header and
+  		About page (see current version). It is set in CKAN configuration file
+  		in the property ckan.odn_version</p>
+  {% endtrans %}
+  {{ super() }}
+{% endblock %}
