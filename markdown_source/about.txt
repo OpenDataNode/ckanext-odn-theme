@@ -2,22 +2,9 @@
 
 ODN is publication platform for open data supporting whole process of publishing. Our motivation is to provide tool which can make this publication repeatable, automated and easy to use.
 
-__Current version 0.9__ is pilot with limited functionality, allowing user to browse, search and download published datasets and allowing registered user also to manage, transform (ETL) and publish datasets (using integrated tool [UnifiedViews](http://www.comsode.eu/index.php/2014/04/unifiedviews-an-etl-framework-for-sustainable-rdf-data-processing/)).
-
 ## Documentation
 
 Documentation is and will be available here: [https://github.com/OpenDataNode/open-data-node](https://github.com/OpenDataNode/open-data-node)
-
-## Release Plan
-
-* 5.12.2014 - Ver. 0.9 pilot with limited functionality
-* 10.2.2015 - Ver. 0.10 beta version for testing
-*  9.2.2015 - Ver. 0.11 beta version for testing
-* 31.3.2015 - Ver. 1.0 - first version - may be used for pilots and early adopters
-* 31.4.2015 - Ver. 1.1 - version for pilot installations
-* 29.5.2015 - Ver. 1.1.x - big fix release
-* 30.6.2015 - Ver. 1.2 - final Comsode release for evaluation
-* 31.7.2015 - Ver. 1.2.x - final bugfix
 
 ## Licensing
 
