@@ -32,9 +32,10 @@ body, .account-masthead, .masthead { background: none; }
 .masthead { padding-bottom: 12px; padding-top: 0; border-bottom: 1px solid #efeeec; }
 .account-masthead, .masthead, .site-footer { background: #efeeec; }
 
-h1 { font-size: 20px; }
-h1 { color: #2c3e50; }
+h1 { font-size: 20px; color: #2c3e50; }
 .context-info h1.heading { margin-top: 12px; }
+
+h1, div.notes p, div.dataset-content div { word-wrap: break-word; }
 
 .homepage .module-search .module-content .heading { color: #2c3e50; }
 .search-form .search-input.search-giant input { font-size: 16px; padding: 10px; }
@@ -73,7 +74,7 @@ hgroup.header-image { margin-left: 5px; }
 .site-footer { min-height: 110px; margin-top:20px;}
 .site-footer, .site-footer label, .site-footer small { color: #2c3e50; }
 .attribution .ckan-footer-logo { margin-top: 7px; }
-.footer-links ul { width: auto; margin-left:0; }
+.footer-links ul { width: auto; margin-left:0; float: left; }
 .footer-links { width: 500px; }
 .attribution { width: auto; margin-left: 0; }
 .footer-links a { color:#2c3e50; }
@@ -96,3 +97,7 @@ ol.stages { margin: 10px 0 20px; }
 .page_primary_action { margin-top: 15px; margin-bottom: 15px; }
 .btn-primary { background: #2c3e50; }
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled] { background: #909090; }
+
+[role=main] {
+  min-height: 160px;
+}

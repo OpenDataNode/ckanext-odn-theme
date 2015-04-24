@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1.1'
+version = '1.0.0'
 
 setup(
     name='ckanext-odn-theme',
@@ -31,6 +31,7 @@ setup(
             'public/base/images/*.gif',
             'public/css/*.css',
             'templates/*.html',
+            'templates/admin/*.html',
             'templates/home/*.html',
             'templates/home/snippets/*.html',
             'templates/snippets/*.html',
