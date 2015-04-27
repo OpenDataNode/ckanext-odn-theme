@@ -273,7 +273,7 @@ msgid ""
 " ODN is platform for publishing, retrieving and interchange of open data "
 "supporting whole process of publication. "
 msgstr ""
-" ODN je platforma určená na publikáciu, získavanie a výmenu otvorených dát"
+" ODN je platforma určená na publikáciu, získavanie a výmenu otvorených dát "
 "podporujúca celý proces publikácie. "
 
 #: ckanext/odn_theme/templates/home/snippets/search.html:2
