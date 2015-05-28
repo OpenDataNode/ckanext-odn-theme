@@ -108,7 +108,27 @@
                 ('about', _('About ODN'))
               ) }}
             {% endblock %}
-<li><a target="_blank" href="http://www.comsode.eu">{{ _("Project Comsode") }}</a></li>
+            <li><a target="_blank" href="http://www.comsode.eu">{{ _("Project Comsode") }}</a></li>
+            
+            {% if h.get_uv_url() or h.get_user_management_url() %}
+			<li>
+			  <div class="dropdown btn-group">
+			    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+				  <i class="icon-share-alt"></i>
+				  {{ _('Tools') }}
+				  <span class="caret"></span>
+			    </a>
+			    <ul class="dropdown-menu">
+			      {% if h.get_user_management_url() %}
+			      <li><a target="_blank" href="{{ h.get_user_management_url() }}">{{ _("User management") }}</a></li>
+			      {% endif %}
+			      {% if h.get_uv_url() %}
+			      <li><a target="_blank" href="{{ h.get_uv_url() }}">{{ _("Unified Views") }}</a></li>
+			      {% endif %}
+			    </ul>
+			  </div>
+			</li>
+			{% endif %}
           </ul>
         </nav>
       {% endblock %}

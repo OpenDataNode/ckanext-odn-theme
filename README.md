@@ -13,7 +13,13 @@ To enable plugin, change property in your production.ini:
 ckan.plugins = odn_theme odn_package_extras
 
 # version displayed in header and About page (current version)
-ckan.odn_version = 0.11
+ckan.odn_version = 1.0.2
+
+# link to midpoint in the header: Tools > User management
+ckan.user_management.url = https://host/midpoint
+
+# link to midpoint in the header: Tools > Unified Views
+odn.uv.url = http://host/unifiedviews
 ```
 
 set in .ini:
