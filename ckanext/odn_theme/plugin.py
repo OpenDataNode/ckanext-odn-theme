@@ -1,13 +1,19 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 import ckan.lib.helpers as h
-import os
 from ckan.lib.app_globals import auto_update
+from pylons import config
 
 auto_update.append('ckan.odn_version')
 
 def localized_url_for_static(link):
     return h.url_for_static("{lang}/{link}".format(lang=h.lang(), link=link))
+
+def get_uv_url():
+    return config.get('odn.uv.url', '')
+
+def get_user_management_url():
+    return config.get('ckan.user_management.url', '')
 
 class OdnThemePlugin(plugins.SingletonPlugin):
     '''An comsode theme plugin.
@@ -24,4 +30,6 @@ class OdnThemePlugin(plugins.SingletonPlugin):
         toolkit.add_public_directory(config, '../i18n')
     
     def get_helpers(self):
-        return {'localized_url_for_static': localized_url_for_static}
+        return {'localized_url_for_static': localized_url_for_static,
+                'get_uv_url': get_uv_url,
+                'get_user_management_url': get_user_management_url}
