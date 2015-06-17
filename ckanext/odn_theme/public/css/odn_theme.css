@@ -115,3 +115,7 @@ ol.stages { margin: 10px 0 20px; }
 [role=main] {
   min-height: 160px;
 }
+
+/* Data API help */
+#collapse-endpoints > div > table { table-layout: fixed; width: 100%; }
+#collapse-endpoints > div > table th { width: 25%; }
