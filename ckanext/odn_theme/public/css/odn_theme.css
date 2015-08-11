@@ -1,3 +1,7 @@
+li.dataset-item a.label {
+    margin-right: 5px;
+}
+
 /* pipeline */
 #radio1 { top: auto; }
 .dataset-content .btn-group { top: -8px; }
