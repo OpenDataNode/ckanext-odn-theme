@@ -3,7 +3,7 @@
 a, h1, 
 #sitetitle, 
 .homepage .module-search .module-content .heading,
-.site-footer, .site-footer label, .site-footer small, .footer-links a {
+.site-footer, .site-footer label, .site-footer small, .footer-links a, #sitetitlestring a {
   color: #2c3e50;
 }
 .account-masthead .account ul li a {
@@ -51,6 +51,8 @@ body, .masthead .navigation .nav-pills .dropdown > ul > li > a, .hero, [role="ma
 #sitelogo { float:left; display: block; }
 #sitetitle { margin-left:16px;float:left;font-weight:bold; }
 #sitetitlestring { margin-top:13px;font-size:23px; }
+#sitetitlestring a { font-size: 23px; font-weight: 700; }
+#sitetitlestring a:hover { text-decoration: none; }
 
 /* navbar */
 .navbar .nav > li > a { padding: 10px; margin-left: 5px; }
