@@ -62,13 +62,13 @@
                 {{ h.build_nav_main(
                   ('search', _('Datasets')),
                   ('organizations_index', _('Organizations')),
-                  ('group_index', _('Groups')),
+                  ('group_index', _('Groups'), 'group_create'),
                 ) }}
               {% else %}
                 {{ h.build_nav_main(
                   ('search', _('Datasets')),
                   ('organizations_index', _('Organizations')),
-                  ('group_index', _('Groups')),
+                  ('group_index', _('Groups'), 'group_create'),
                   ('about', _('About'))
                 ) }}
               {% endif %}
