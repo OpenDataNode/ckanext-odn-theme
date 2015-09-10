@@ -2,14 +2,14 @@
 
 {% block header_logo %}
   {% if g.site_logo %}
-          <a id="sitelogo" class="logo" href="{{ h.url('home') }}"><img src="{{ h.url_for_static(g.site_logo) }}" alt="{% if g.site_title != '' %}{{ g.site_title }}{% else %}Open Data Node{% endif %}" title="{% if g.site_title != '' %}{{ g.site_title }}{% else %}Open Data Node{% endif %}" /></a>
+          <a id="sitelogo" class="logo" href="{{ h.url('home') }}"><img src="{{ h.url_for_static(g.site_logo) }}" alt="{{ g.site_title or _('Open Data Node') }}" title="{{ g.site_title or _('Open Data Node') }}" /></a>
           <div id="sitetitle">
             <div id="sitetitlestring">{% if g.site_title != '' %}{{ g.site_title }}{% else %}Open Data Node{% endif %}</div>
           </div>
   {% else %}
           <div id="sitetitle">
             <h1 id="sitetitlestring">
-              <a href="{{ h.url('home') }}">{% if g.site_title != '' %}{{ g.site_title }}{% else %}Open Data Node{% endif %}</a>
+              <a href="{{ h.url('home') }}">{{ g.site_title or _('Open Data Node') }}</a>
             </h1>
           </div>
           {% if g.site_description %}<h2>{{ g.site_description }}</h2>{% endif %}
