@@ -16,7 +16,11 @@ setup(
     url='',
     license='',
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-    namespace_packages=['ckanext', 'ckanext.odn_theme', 'ckanext.extras'],
+    namespace_packages=['ckanext',
+                        'ckanext.odn_theme',
+                        'ckanext.odn_theme_ic',
+                        'ckanext.odn_theme_pc',
+                        'ckanext.extras'],
     package_data={'': [
             'i18n/*/LC_MESSAGES/*.po',
             'i18n/*/base/images/*.jpg',
@@ -51,6 +55,8 @@ setup(
     entry_points='''
     [ckan.plugins]
     odn_theme=ckanext.odn_theme.plugin:OdnThemePlugin
+    odn_theme_ic=ckanext.odn_theme_ic.plugin:OdnThemeICPlugin
+    odn_theme_pc=ckanext.odn_theme_pc.plugin:OdnThemePCPlugin
     odn_package_extras=ckanext.extras.plugin:PackageExtrasPlugin
     ''',
 )

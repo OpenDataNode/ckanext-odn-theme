@@ -10,7 +10,7 @@ Installation
 
 To enable plugin, change property in your production.ini:
 ```
-ckan.plugins = odn_theme odn_package_extras
+ckan.plugins = odn_theme odn_theme_ic odn_theme_pc odn_package_extras
 
 # version displayed in header and About page (current version)
 ckan.odn_version = 1.0.2
