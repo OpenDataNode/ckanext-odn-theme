@@ -2,12 +2,7 @@
 
 {%- block custom_styles %}
     <link rel="stylesheet" href="{{h.url_for_static('/css/odn_theme.css')}}" />
-
-    {%- if g.site_custom_css -%}
-    <style>
-      {{ g.site_custom_css | safe }}
-    </style>
-    {%- endif %}
+    {{ super() }}
 {% endblock %}
 
 {% block links -%}
