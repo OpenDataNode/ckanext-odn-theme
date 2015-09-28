@@ -20,7 +20,7 @@ def get_user_management_url():
 
 def user_display_name():
     logged_user = c.userobj
-    actor_id = pylons.session['ckanext-cas-actorid']
+    actor_id = pylons.session.get('ckanext-cas-actorid')
     if actor_id:
         found_user = User.by_name(actor_id)
         if found_user:
