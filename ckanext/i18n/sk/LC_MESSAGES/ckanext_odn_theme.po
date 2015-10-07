@@ -179,14 +179,6 @@ msgstr "Nastavenia systémového administrátora"
 msgid "View profile"
 msgstr "Prehľad profilu"
 
-#: ckanext/odn_theme_ic/templates/header.html:19
-#, python-format
-msgid "Dashboard (%(num)d new item)"
-msgid_plural "Dashboard (%(num)d new items)"
-msgstr[0] "Nástenka (%(num)d nových položiek)"
-msgstr[1] "Nástenka (%(num)d nová položka)"
-msgstr[2] "Nástenka (%(num)d nové položky)"
-
 #: ckanext/odn_theme_ic/templates/header.html:27
 msgid "Edit settings"
 msgstr "Zmeniť nastavenia"
