@@ -23,17 +23,9 @@ msgstr ""
 msgid "Creator"
 msgstr "Tvorca"
 
-#: ckanext/extras/plugin.py:16
-msgid "Dataset"
-msgstr "Sada dát"
-
 #: ckanext/extras/plugin.py:17
 msgid "Modified"
 msgstr "Zmenený"
-
-#: ckanext/extras/plugin.py:18
-msgid "Source"
-msgstr "Zdroj"
 
 #: ckanext/extras/plugin.py:19
 msgid "Example resource"
@@ -51,21 +43,6 @@ msgstr " "
 #: ckanext/odn_theme/templates/header.html:12
 msgid "Open Data Node"
 msgstr "Open Data Node"
-
-#: ckanext/odn_theme/templates/header.html:25
-#: ckanext/odn_theme/templates/header.html:31
-msgid "Datasets"
-msgstr "Dátové sady"
-
-#: ckanext/odn_theme/templates/header.html:26
-#: ckanext/odn_theme/templates/header.html:32
-msgid "Organizations"
-msgstr "Organizácie"
-
-#: ckanext/odn_theme/templates/header.html:27
-#: ckanext/odn_theme/templates/header.html:33
-msgid "Groups"
-msgstr ""
 
 #: ckanext/odn_theme/templates/header.html:43
 msgid "Tools"
@@ -95,104 +72,7 @@ msgstr "napríklad Ceny zlata"
 msgid "Search Your Data"
 msgstr "Hľadať vo Vašich dátach"
 
-#: ckanext/odn_theme/templates/home/snippets/search.html:11
-msgid "Search"
-msgstr "Hľadať"
-
-#: ckanext/odn_theme/templates/package/resource_read.html:5
-msgid "Additional Information"
-msgstr "Doplňujúce informácie"
-
-#: ckanext/odn_theme/templates/package/resource_read.html:9
-msgid "Field"
-msgstr ""
-
-#: ckanext/odn_theme/templates/package/resource_read.html:10
-msgid "Value"
-msgstr ""
-
-#: ckanext/odn_theme/templates/package/resource_read.html:15
-msgid "Last updated"
-msgstr "Naposledy aktualizované"
-
-#: ckanext/odn_theme/templates/package/resource_read.html:16
-#: ckanext/odn_theme/templates/package/resource_read.html:20
-#: ckanext/odn_theme/templates/package/resource_read.html:24
-msgid "unknown"
-msgstr ""
-
-#: ckanext/odn_theme/templates/package/resource_read.html:19
-msgid "Created"
-msgstr ""
-
-#: ckanext/odn_theme/templates/package/resource_read.html:23
-msgid "Format"
-msgstr ""
-
-#: ckanext/odn_theme/templates/package/resource_read.html:27
-msgid "License"
-msgstr ""
-
-#: ckanext/odn_theme/templates/user/read_base.html:7
-msgid "Open ID"
-msgstr ""
-
-#: ckanext/odn_theme/templates/user/read_base.html:10
-msgid "Username"
-msgstr ""
-
-#: ckanext/odn_theme/templates/user/read_base.html:16
-msgid "Email"
-msgstr ""
-
-#: ckanext/odn_theme/templates/user/read_base.html:16
-#: ckanext/odn_theme/templates/user/read_base.html:30
-msgid "This means only you can see this"
-msgstr ""
-
-#: ckanext/odn_theme/templates/user/read_base.html:16
-#: ckanext/odn_theme/templates/user/read_base.html:30
-msgid "Private"
-msgstr "Súkromné"
-
 #: ckanext/odn_theme/templates/user/read_base.html:17
 msgid "None"
 msgstr "Žiadny"
-
-#: ckanext/odn_theme/templates/user/read_base.html:21
-msgid "Member Since"
-msgstr ""
-
-#: ckanext/odn_theme/templates/user/read_base.html:25
-msgid "State"
-msgstr ""
-
-#: ckanext/odn_theme/templates/user/read_base.html:30
-msgid "API Key"
-msgstr ""
-
-#: ckanext/odn_theme_ic/templates/header.html:6
-msgid "Sysadmin settings"
-msgstr "Nastavenia systémového administrátora"
-
-#: ckanext/odn_theme_ic/templates/header.html:12
-msgid "View profile"
-msgstr "Prehľad profilu"
-
-#: ckanext/odn_theme_ic/templates/header.html:19
-#, python-format
-msgid "Dashboard (%(num)d new item)"
-msgid_plural "Dashboard (%(num)d new items)"
-msgstr[0] "Nástenka (%(num)d nových položiek)"
-msgstr[1] "Nástenka (%(num)d nová položka)"
-msgstr[2] "Nástenka (%(num)d nové položky)"
-
-#: ckanext/odn_theme_ic/templates/header.html:27
-msgid "Edit settings"
-msgstr "Zmeniť nastavenia"
-
-#: ckanext/odn_theme_ic/templates/header.html:34
-msgid "Log out"
-msgstr "Odhlásiť"
-
 
